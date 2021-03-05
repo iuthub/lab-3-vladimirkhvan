@@ -6,6 +6,7 @@
 
 .header{
     border: 5px red solid;
+    text-align: right;
 }
 
 .header .header-details{
@@ -26,4 +27,12 @@
 body{
     background-image: url("images/bush.png");
     background-repeat: repeat;
+}
+
+.main .article .article-body{
+    display: flex;
+}
+
+.main .article .article-body .article-image{
+    order: 2;
 }

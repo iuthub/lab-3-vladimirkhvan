@@ -1,5 +1,7 @@
-body{
+.wrapper{
     border: 5px green solid;
+    background-color: white;
+    margin: 0 10%;
 }
 
 .header{
@@ -10,10 +12,18 @@ body{
     border: 5px orange solid;
 }
 
-.body .article{
+.main .article{
     border: 5px blue solid;
+    background-color: #E8FBFB;
+    padding: 5px;
+    margin-top: 10px;
 }
 
-.body .article .article-header .date{
+.main .article .article-header .date{
     border: 5px purple solid;
+}
+
+body{
+    background-image: url("images/bush.png");
+    background-repeat: repeat;
 }

@@ -1,0 +1,19 @@
+body{
+    border: 5px green solid;
+}
+
+.header{
+    border: 5px red solid;
+}
+
+.header .header-details{
+    border: 5px orange solid;
+}
+
+.body .article{
+    border: 5px blue solid;
+}
+
+.body .article .article-header .date{
+    border: 5px purple solid;
+}
